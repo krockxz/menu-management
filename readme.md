@@ -202,5 +202,5 @@ curl -X PUT http://localhost:5000/api/items/<id> \
 curl -X GET "http://localhost:5000/api/items/search?name=iPhone%2013"
 ```
 
-
+To test the API endpoints using the deployed URL, we can replace http://localhost:5000 with https://menu-management-r4gy.onrender.com in all the cURL commands or requests made via Postman or any other HTTP client.
 ---
