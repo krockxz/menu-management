@@ -33,7 +33,7 @@ This is a Node.js backend server for managing a menu system. The menu is divided
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/menu-management.git
+   git clone https://github.com/krockxz/menu-management.git
    cd menu-management
    ```
 
@@ -47,11 +47,10 @@ This is a Node.js backend server for managing a menu system. The menu is divided
 Create a `.env` file in the root directory and configure it with the following variables:
 
 ```bash
-MONGO_URI=<Your MongoDB Connection String>
+MONGO_URI=mongodb+srv://kunal:CwLZ2AMa8OPWkD4n@menudb.oljtc.mongodb.net/menuDB?retryWrites=true&w=majority
 PORT=5000
 ```
 
-Replace `<Your MongoDB Connection String>` with your actual MongoDB connection URI.
 
 ## Running the Application
 
