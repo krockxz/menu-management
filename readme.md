@@ -16,9 +16,12 @@ This is a Node.js backend server for managing a menu system. The menu is divided
   - [Edit Category](#edit-category)
   - [Create Subcategory](#create-subcategory)
   - [Get Subcategories](#get-subcategories)
+  - [Get Subcategories under a Category](#get-subcategories-under-a-category)
   - [Edit Subcategory](#edit-subcategory)
   - [Create Item](#create-item)
   - [Get Items](#get-items)
+  - [Get Items under a Category](#get-items-under-a-category)
+  - [Get Items under a Subcategory](#get-items-under-a-subcategory)
   - [Edit Item](#edit-item)
   - [Search Item by Name](#search-item-by-name)
 
@@ -50,7 +53,6 @@ Create a `.env` file in the root directory and configure it with the following v
 MONGO_URI=mongodb+srv://kunal:CwLZ2AMa8OPWkD4n@menudb.oljtc.mongodb.net/menuDB?retryWrites=true&w=majority
 PORT=5000
 ```
-
 
 ## Running the Application
 
@@ -202,5 +204,9 @@ curl -X PUT http://localhost:5000/api/items/<id> \
 curl -X GET "http://localhost:5000/api/items/search?name=iPhone%2013"
 ```
 
-To test the API endpoints using the deployed URL, we can replace http://localhost:5000 with https://menu-management-r4gy.onrender.com in all the cURL commands or requests made via Postman or any other HTTP client.
 ---
+
+To test the API endpoints using the deployed URL, replace `http://localhost:5000` with `https://menu-management-r4gy.onrender.com` in all the cURL commands or requests made via Postman or any other HTTP client.
+
+---
+
